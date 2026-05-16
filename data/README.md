@@ -10,7 +10,7 @@ The network is constructed programmatically in the notebook.
 
 ## Node Attributes
 - `role` : Supplier / Transshipment / Distributor / Market
-- `region` : Geographic location
+- `region` : South Asia
 - `weight` : Relative size/capacity (2–10)
 
 ## Edge Attributes
