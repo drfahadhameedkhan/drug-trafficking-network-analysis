@@ -1,0 +1,8 @@
+networkx>=3.0
+matplotlib>=3.6
+numpy>=1.23
+scipy>=1.9
+python-louvain>=0.16
+jupyter>=1.0
+notebook>=6.5
+ipykernel>=6.0
