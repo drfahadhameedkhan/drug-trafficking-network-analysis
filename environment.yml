@@ -1,1 +1,14 @@
-
+name: trafficking-network      # this becomes the environment's name
+channels:                      # where conda looks to download packages
+  - defaults
+  - conda-forge
+dependencies:                  # what to install
+  - python=3.9                 # Python version
+  - pip                        # tells conda to also use pip
+  - pip:                       # the following are installed via pip
+    - networkx==3.3            # your graph analysis library
+    - matplotlib==3.8.4        # your plotting library
+    - numpy==1.26.4            # numerical computation
+    - scipy==1.13.0            # scientific computation
+    - python-louvain==0.16     # community detection
+    - jupyter==1.0.0           # notebook interface
