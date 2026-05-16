@@ -138,7 +138,7 @@ drug-trafficking-network-analysis/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/drug-trafficking-network-analysis.git
+git clone https://github.com/drfahadhameedkhan/drug-trafficking-network-analysis.git
 cd drug-trafficking-network-analysis
 
 # Install dependencies
