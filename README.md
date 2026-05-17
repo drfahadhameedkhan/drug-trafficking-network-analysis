@@ -154,11 +154,11 @@ jupyter notebook notebooks/01_network_analysis.ipynb
 
 See `requirements.txt`. Core libraries:
 
-- `networkx` — Graph construction and analysis
-- `matplotlib` — Visualisation
-- `numpy` / `scipy` — Numerical computation
-- `python-louvain` — Louvain community detection
-- `jupyter` — Notebook interface
+- `networkx` - Graph construction and analysis
+- `matplotlib` - Visualisation
+- `numpy` / `scipy` - Numerical computation
+- `python-louvain` - Louvain community detection
+- `jupyter` - Notebook interface
 
 ---
 
