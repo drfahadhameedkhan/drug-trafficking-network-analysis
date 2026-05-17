@@ -1,6 +1,6 @@
 # Drug Trafficking Network Analysis
 
-**Graph-theoretic analysis of transnational drug trafficking networks using degree distribution, betweenness centrality, and community detection.**
+**Graph-theoretic analysis of transnational drug trafficking networks using degree distribution, betweenness centrality and community detection.**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://python.org)
 [![NetworkX](https://img.shields.io/badge/NetworkX-3.x-orange)](https://networkx.org)
@@ -60,7 +60,7 @@ Four complementary centrality measures are computed:
 | **Closeness centrality** | C_C(v) = (n-1) / Σ d(v,u) | Efficiency of information spread |
 | **Eigenvector centrality** | Av = λv | Influence from well-connected neighbours |
 
-Betweenness centrality is the primary measure of interest for identifying structural brokers — nodes whose removal would most disrupt network connectivity.
+Betweenness centrality is the primary measure of interest for identifying structural brokers-nodes whose removal would most disrupt network connectivity.
 
 #### 3. Community Detection (Louvain Algorithm)
 
