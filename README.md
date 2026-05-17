@@ -10,18 +10,18 @@
 
 ## Overview
 
-This repository contains code and analysis for a graph-theoretic study of transnational drug trafficking networks. The network represents a multi-layered illicit supply chain spanning source, transshipment, distribution, and market nodes across multiple world regions. The analysis draws on published criminological literature and applies formal network science methods to identify structural vulnerabilities, key broker nodes, and trafficking communities.
+This repository contains code and analysis for a graph-theoretic study of transnational drug trafficking networks. The network represents a multi-layered illicit supply chain spanning source, transshipment, distribution and market nodes across multiple world regions. The analysis draws on published criminological literature and applies formal network science methods to identify structural vulnerabilities, key broker nodes and trafficking communities.
 
-This work bridges the author's criminological research on transnational trafficking (Khan, 2025) with computational methods from social network analysis and complex systems science.
+This work bridges the author's criminological research on transnational drug trafficking (Khan, 2025) with computational methods from social network analysis and complex systems science.
 
 ---
 
 ## Research Questions
 
 1. **Degree Distribution:** Does the network exhibit scale-free properties consistent with preferential attachment? What does the degree distribution reveal about hub nodes?
-2. **Centrality:** Which nodes occupy the most structurally critical positions, and how do different centrality measures (degree, betweenness, closeness, eigenvector) diverge in their identification of key actors?
+2. **Centrality:** Which nodes occupy the most structurally critical positions and how do different centrality measures (degree, betweenness, closeness, eigenvector) diverge in their identification of key actors?
 3. **Community Structure:** Do algorithmically detected communities correspond to geographically or functionally coherent trafficking corridors? What does modularity reveal about network cohesion?
-4. **Broker Identification:** Which transshipment or distribution nodes serve as structural bridges, and what are the disruption implications of removing them?
+4. **Broker Identification:** Which transshipment or distribution nodes serve as structural bridges and what are the disruption implications of removing them?
 
 ---
 
@@ -62,7 +62,7 @@ Four complementary centrality measures are computed:
 
 Betweenness centrality is the primary measure of interest for identifying structural brokers — nodes whose removal would most disrupt network connectivity.
 
-#### 3. Community Detection — Louvain Algorithm
+#### 3. Community Detection (Louvain Algorithm)
 
 Communities are detected using the **Louvain method** (Blondel et al., 2008), which maximises modularity Q:
 
@@ -109,7 +109,7 @@ drug-trafficking-network-analysis/
 ## Key Findings
 
 - **Scale-free properties:** The network degree distribution approximates a power law (γ ≈ 1.8), consistent with preferential attachment dynamics observed in other illicit and licit trade networks.
-- **Critical brokers:** Transshipment nodes T1, T3, and T6 exhibit disproportionately high betweenness centrality, indicating their pivotal role in connecting supply to distribution across multiple corridors.
+- **Critical brokers:** Transshipment nodes T1, T3 and T6 exhibit disproportionately high betweenness centrality, indicating their pivotal role in connecting supply to distribution across multiple corridors.
 - **Community structure:** The Louvain algorithm detects 4–5 communities broadly corresponding to geographic trafficking corridors (Latin American, West African, Central Asian, Southeast Asian), with a modularity Q > 0.35 indicating moderately strong community boundaries.
 - **Disruption asymmetry:** Removal of the top-3 betweenness nodes increases mean shortest path length by ~40%, suggesting that targeted interdiction of transshipment brokers is structurally more disruptive than removing peripheral market nodes.
 
