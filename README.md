@@ -173,7 +173,7 @@ This repository operationalises the network concepts discussed in that publicati
 ## Author
 
 **Fahad Hameed Khan**
-Postdoctoral Research Fellow | Criminology & Computational Social Science
+Independent Researcher | Criminology & Computational Social Science
 - [Google Scholar](https://scholar.google.com/citations?hl=id) | [ResearchGate](https://www.researchgate.net/profile/Fahad-Khan-119?ev=hdr_xprf) | [ORCID](https://orcid.org/0009-0009-2087-0242)
 
 ---
